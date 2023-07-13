@@ -30,7 +30,8 @@
         </a>
     </div>
 </div>
-<div class="m-3 flex flex-col min-h-0 max-h-screen-2xl rounded relative sm:flex-row" style="width:98%" >
+
+<div class="m-3 flex flex-col min-h-0 max-h-screen-2xl ss:justify-center ss:items-center s:flex-col rounded relative sm:flex-row" style="width:98%" >
 
 <div class="relative w-11/12 sm:w-3/6 w-11/12 sm:w-3/6" >
 @livewire('other-post', ['userId' => $user->id])

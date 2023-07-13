@@ -34,7 +34,8 @@ module.exports = {
       'greenish' : '#00B8A9',
     },
     screens: {
-      's' : '400px',
+      'ss' : '320px',
+      's' : '490px',
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',

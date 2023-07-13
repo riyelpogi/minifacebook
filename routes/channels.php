@@ -21,13 +21,14 @@ Broadcast::channel('Comments.{id}', function ($user, $id) {
     return (int) $user->id === (int) $id;
 });
 
-
 Broadcast::channel('Users.{id}', function ($user, $id) {
     return (int) $user->id === (int) $id;
 });
+
 Broadcast::channel('Users', function ($user) {
     return true;
 });
+
 Broadcast::channel('Post', function ($user) {
     return true;
 });

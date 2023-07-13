@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div class="m-3 flex flex-col min-h-0 max-h-screen-2xl rounded relative sm:flex-row" style="width:98%" >
+<div class="m-3 flex flex-col ss:justify-center ss:items-center s:flex-col min-h-0 max-h-screen-2xl rounded relative s:flex-row sm:flex-row" style="width:98%" >
 
 <div class="relative w-80 w-11/12 sm:w-6/12" style="">
     @livewire('user-post')
